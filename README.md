@@ -1,57 +1,31 @@
 🏦 Bank System CLI – File-Based Banking Application
-إدارة عملاء ومعاملات بنكية عبر سطر الأوامر باستخدام لغة ++C
+🇺🇸 English Description
+📖 Project Overview
+This project is a simple banking system written in C++ and running on the command line. It uses a text file to store client data instead of a database, making it lightweight and easy to run in any environment. The system allows client management (add, update, delete, search) and basic financial transactions such as deposits and withdrawals.
 
-📖 Project Description | وصف المشروع
-🇺🇸 English
-This project is a Command-Line Banking System written in C++. It manages client accounts using file-based storage instead of databases, making it lightweight and easy to run in any environment. The system allows adding, updating, deleting, and searching for clients, as well as performing basic financial transactions like deposits and withdrawals.
+🔑 Features
+➕ Add new clients
 
-It is designed as an educational project to demonstrate:
+✏️ Update client information
 
-File handling in C++
+❌ Delete clients
 
-Struct-based data modeling
+🔍 Search clients by account number
 
-Menu-driven console applications
+💰 Deposit and withdraw money with balance validation
 
-Practical banking operations simulation
+📊 Show total balances across all accounts
 
-🇸🇦 العربية
-هذا المشروع عبارة عن نظام بنكي عبر سطر الأوامر مكتوب بلغة ++C. يعتمد على تخزين البيانات في ملف نصي بدلًا من قواعد البيانات، مما يجعله خفيفًا وسهل التشغيل في أي بيئة. يتيح النظام إضافة العملاء، تعديل بياناتهم، حذفهم، والبحث عنهم، بالإضافة إلى تنفيذ معاملات مالية أساسية مثل الإيداع والسحب.
+📂 Data stored in Clients.txt
 
-تم تصميمه كمشروع تعليمي يوضح:
-
-التعامل مع الملفات في ++C
-
-استخدام الهياكل (Struct) لنمذجة البيانات
-
-بناء تطبيقات قائمة على القوائم عبر سطر الأوامر
-
-محاكاة العمليات البنكية بشكل عملي
-
-🔑 Features | الميزات
-➕ Add new clients | إضافة عملاء جدد
-
-✏️ Update client information | تعديل بيانات العملاء
-
-❌ Delete clients | حذف العملاء
-
-🔍 Search for clients by account number | البحث عن العملاء برقم الحساب
-
-💰 Deposit and withdraw money | الإيداع والسحب
-
-📊 Show total balances | عرض إجمالي الأرصدة
-
-📂 Data stored in Clients.txt | تخزين البيانات في ملف Clients.txt
-
-🛠️ Technologies Used | التقنيات المستخدمة
+🛠️ Technologies Used
 C++ Standard Library (<vector>, <fstream>, <string>)
 
-File I/O for persistent storage | التعامل مع الملفات للتخزين الدائم
+File I/O for persistent storage
 
 Console interaction (cin, cout, system("cls"))
 
-🚀 How to Run | كيفية التشغيل
-🇺🇸 English
+🚀 How to Run
 Clone the repository
 
 Compile the file:
@@ -62,7 +36,42 @@ Run the program:
 
 bash
 ./BankSystem
-🇸🇦 العربية
+🎯 Future Improvements
+🔒 Add password encryption
+
+🗄️ Migrate to a database (SQLite/MySQL)
+
+🖥️ Build a GUI version
+
+🌐 Multi-language support (English/Arabic)
+
+🇸🇦 الوصف بالعربية
+📖 وصف المشروع
+هذا المشروع عبارة عن نظام بنكي بسيط مكتوب بلغة ++C ويعمل عبر سطر الأوامر. يعتمد على ملف نصي لتخزين بيانات العملاء بدلًا من قواعد البيانات، مما يجعله خفيفًا وسهل التشغيل في أي بيئة. يوفر النظام إمكانية إدارة العملاء (إضافة، تعديل، حذف، بحث) وتنفيذ معاملات مالية أساسية مثل الإيداع والسحب.
+
+🔑 الميزات
+➕ إضافة عملاء جدد
+
+✏️ تعديل بيانات العملاء
+
+❌ حذف العملاء
+
+🔍 البحث عن العملاء برقم الحساب
+
+💰 إيداع وسحب الأموال مع التحقق من الرصيد
+
+📊 عرض إجمالي الأرصدة لجميع الحسابات
+
+📂 تخزين البيانات في ملف Clients.txt
+
+🛠️ التقنيات المستخدمة
+لغة ++C ومكتبتها القياسية (<vector>, <fstream>, <string>)
+
+التعامل مع الملفات (File I/O) للتخزين الدائم
+
+التفاعل عبر سطر الأوامر (cin, cout, system("cls"))
+
+🚀 كيفية التشغيل
 انسخ المستودع (Clone)
 
 قم بترجمة الملف:
@@ -73,15 +82,11 @@ g++ BankSystemExtension_1.1.cpp -o BankSystem
 
 bash
 ./BankSystem
-🎯 Future Improvements | تحسينات مستقبلية
-🔒 Add password encryption | إضافة تشفير لكلمات المرور
+🎯 تحسينات مستقبلية
+🔒 إضافة تشفير لكلمات المرور
 
-🗄️ Migrate to database (SQLite/MySQL) | ربط النظام بقاعدة بيانات
+🗄️ ربط النظام بقاعدة بيانات (SQLite/MySQL)
 
-🖥️ Build a GUI version | تطوير نسخة بواجهة رسومية
+🖥️ تطوير نسخة بواجهة رسومية (GUI)
 
-🌐 Multi-language support (English/Arabic) | دعم لغات متعددة (عربي/إنجليزي)
-
-👨‍💻 Author | المؤلف
-Developed by [Dev Mohamed Al-Halabi] 
-تم التطوير بواسطة [محمد الحلبي]
+🌐 دعم لغات متعددة (عربي/إنجليزي)
